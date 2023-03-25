@@ -13,8 +13,6 @@
 #colbreak()
 = Credo
 #translate("la/Credo.md","fr/Je Crois en Dieu.md")
-
-
 #colbreak()
 
 = Signum Crucis

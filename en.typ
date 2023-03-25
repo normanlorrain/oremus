@@ -1,7 +1,7 @@
 #import "translation.typ": *
-#set text(font: "Garamond", size: 14pt)
+#set text(font: "Garamond", size: 12pt)
 #set page( margin:0.5in )
-#set par(leading:.3em)
+#set par(leading:0.8em)
 #show: columns.with(3)
 
 = Ave Maria
@@ -13,6 +13,7 @@
 #colbreak()
 = Credo
 #translate("la/Credo.md","en/Creed.md")
+#colbreak()
 
 = Signum Crucis
 #translate("la/Signum Crucis.md","en/Sign of the Cross.md")
