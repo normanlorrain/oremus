@@ -6,9 +6,7 @@
     let len = first.len()
     let i = 0
     while i < len { 
-    [ *#second.at(i)*\
-      _#first.at(i)_\
-    ] 
+    box([ *#first.at(i)* \ _#second.at(i)_ \ ]) 
     i=i+1}
 
 }
