@@ -6,7 +6,7 @@
     let len = first.len()
     let i = 0
     while i < len { 
-    box([ *#first.at(i)* \ _#second.at(i)_ \ ]) 
+    box(width:100%, par(leading:0.3em,[ *#first.at(i)* \ _#second.at(i)_ \ ]) )
     i=i+1}
 
 }
