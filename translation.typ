@@ -10,3 +10,10 @@
     i=i+1}
 
 }
+
+#let everything(doc) = {
+set text(font: "Garamond", size: 12pt)
+set page( margin:0.5in )
+set par(leading:0.8em )
+columns( doc, 3 )
+}

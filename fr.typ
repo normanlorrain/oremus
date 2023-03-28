@@ -1,8 +1,5 @@
 #import "translation.typ": *
-#set text(font: "Garamond", size: 12pt)
-#set page( margin:0.5in )
-#set par(leading:0.8em)
-#show: columns.with(3)
+#show: doc => everything(doc)
 
 = Ave Maria
 #translate("la/Ave Maria.md","fr/Je vous salue Marie.md")
